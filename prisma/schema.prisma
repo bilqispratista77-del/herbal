@@ -1,0 +1,130 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  icon        String?
+  description String?
+  sortOrder   Int      @default(0)
+  products    Product[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Complaint {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String
+  education   String
+  sortOrder   Int      @default(0)
+  products    ProductComplaint[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Product {
+  id            String              @id @default(cuid())
+  name          String
+  slug          String              @unique
+  description   String
+  shortDesc     String
+  price         Float
+  originalPrice Float?
+  image         String
+  images        String?
+  form          String?
+  composition   String?
+  dosage        String?
+  bpomNumber    String?
+  pirtNumber    String?
+  categoryId    String
+  category      Category            @relation(fields: [categoryId], references: [id])
+  complaints    ProductComplaint[]
+  isBestSeller  Boolean             @default(false)
+  isNew         Boolean             @default(false)
+  isActive      Boolean             @default(true)
+  testimonials  Testimonial[]
+  faqs          ProductFaq[]
+  createdAt     DateTime            @default(now())
+  updatedAt     DateTime            @updatedAt
+}
+
+model ProductComplaint {
+  productId   String
+  complaintId String
+  product     Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+  complaint   Complaint @relation(fields: [complaintId], references: [id], onDelete: Cascade)
+
+  @@id([productId, complaintId])
+}
+
+model ProductFaq {
+  id        String  @id @default(cuid())
+  question  String
+  answer    String
+  sortOrder Int     @default(0)
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model Testimonial {
+  id        String   @id @default(cuid())
+  name      String
+  location  String?
+  rating    Int      @default(5)
+  content   String
+  image     String?
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+  isFeatured Boolean @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Article {
+  id        String   @id @default(cuid())
+  title     String
+  slug      String   @unique
+  excerpt   String
+  content   String
+  image     String?
+  category  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Consultation {
+  id        String   @id @default(cuid())
+  name      String
+  phone     String
+  email     String?
+  complaint String
+  message   String?
+  status    String   @default("pending")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Order {
+  id             String   @id @default(cuid())
+  customerName   String
+  customerPhone  String
+  customerEmail  String?
+  address        String
+  items          String
+  total          Float
+  paymentMethod  String
+  paymentStatus  String   @default("pending")
+  status         String   @default("pending")
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
