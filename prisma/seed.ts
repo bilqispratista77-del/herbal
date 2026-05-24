@@ -164,7 +164,7 @@ async function main() {
       description: 'Madu Habbatussauda Premium adalah perpaduan sempurna antara madu murni pilihan dan Habbatussauda (Nigella Sativa) berkualitas tinggi. Habbatussauda dikenal sebagai "obat segala penyakit" sejak ribuan tahun lalu dan telah dibuktikan melalui berbagai penelitian ilmiah.\n\n**Manfaat Utama:**\n• Meningkatkan sistem kekebalan tubuh\n• Membantu meningkatkan nafsu makan\n• Kaya antioksidan alami\n• Membantu mempercepat penyembuhan\n• Menjaga kesehatan pencernaan\n\nMadu yang digunakan adalah madu murni tanpa campuran gula, dipanen langsung dari peternakan lebah terpercaya di Indonesia. Diperkaya dengan ekstrak kurma untuk memberikan rasa yang lezat dan nutrisi tambahan.',
       price: 85000,
       originalPrice: 120000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Madu+Habbatussauda+Premium',
+      image: '/products/madu-habbatussauda-premium.png',
       form: 'cair',
       composition: 'Madu Murni, Habbatussauda (Nigella Sativa), Ekstrak Kurma',
       dosage: '2 sendok makan sehari (pagi dan malam sebelum tidur)',
@@ -181,7 +181,7 @@ async function main() {
       description: 'Jus Manggis Plus dibuat dari buah manggis pilihan yang dipanen pada saat matang sempurna untuk memastikan kandungan xanthone yang maksimal. Xanthone adalah senyawa antioksidan super yang memiliki kemampuan 100 kali lebih kuat dari vitamin C.\n\n**Manfaat Utama:**\n• Mendetoksifikasi tubuh dari racun dan radikal bebas\n• Membantu menurunkan kolesterol LDL\n• Anti-inflamasi alami yang kuat\n• Meningkatkan sistem kekebalan tubuh\n• Menjaga kesehatan kulit dari dalam\n\nDiperkaya dengan ekstrak rosella dan madu untuk meningkatkan khasiat dan memberikan rasa yang menyegarkan. Diproses dengan teknologi modern tanpa bahan pengawet.',
       price: 75000,
       originalPrice: 95000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Jus+Manggis+Plus',
+      image: '/products/jus-manggis-plus.png',
       form: 'cair',
       composition: 'Ekstrak Buah Manggis, Ekstrak Rosella, Madu Murni, Air Murni',
       dosage: '30 ml sehari (1 kali sebelum makan)',
@@ -197,7 +197,7 @@ async function main() {
       shortDesc: 'Kapsul ekstrak kunyit putih (Curcuma zedoaria) yang kaya curcuminoid untuk meningkatkan imunitas dan antioksidan alami.',
       description: 'Kapsul Kunyit Putih mengandung ekstrak Curcuma zedoaria berkualitas tinggi yang diproses dengan teknologi standar farmasi. Kunyit putih memiliki kandungan curcuminoid yang lebih tinggi dibanding kunyit kuning biasa.\n\n**Manfaat Utama:**\n• Antioksidan kuat untuk melawan radikal bebas\n• Membantu proses detoksifikasi hati\n• Meningkatkan sistem kekebalan tubuh\n• Anti-kanker alami (studi pendukung)\n• Membantu mengatasi gangguan pencernaan\n\nSetiap kapsul mengandung 500 mg ekstrak kunyit putih yang setara dengan 5 gram kunyit putih segar. Dikemas dalam bentuk kapsul vegetarian yang mudah dikonsumsi.',
       price: 65000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Kapsul+Kunyit+Putih',
+      image: '/products/kapsul-kunyit-putih.png',
       form: 'kapsul',
       composition: 'Ekstrak Kunyit Putih (Curcuma Zedoaria) 500 mg',
       dosage: '2 kapsul sehari (pagi dan malam setelah makan)',
@@ -214,7 +214,7 @@ async function main() {
       description: 'Minyak Zaitun Extra Virgin kami diperas secara langsung dari buah zaitun segar tanpa proses kimia atau pemanasan. Merupakan minyak zaitun dengan grade tertinggi yang kaya akan asam oleat, polifenol, dan vitamin E.\n\n**Manfaat Utama:**\n• Menurunkan kolesterol LDL dan meningkatkan HDL\n• Menjaga kesehatan jantung dan pembuluh darah\n• Kaya antioksidan dan anti-inflamasi alami\n• Meningkatkan stamina dan energi\n• Menjaga kesehatan kulit dan rambut\n\nBisa dikonsumsi langsung atau digunakan sebagai bahan masakan. Dapat juga digunakan sebagai minyak pijat untuk kesehatan tubuh bagian luar.',
       price: 95000,
       originalPrice: 130000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Minyak+Zaitun+Extra+Virgin',
+      image: '/products/minyak-zaitun-extra-virgin.png',
       form: 'cair',
       composition: '100% Minyak Zaitun Extra Virgin (Olea Europaea)',
       dosage: '1-2 sendok makan sehari (bisa dicampur makanan)',
@@ -230,7 +230,7 @@ async function main() {
       shortDesc: 'Teh herbal khusus formulasi untuk mengatasi asam lambung dan maag. Terbuat dari campuran herbal pencernaan pilihan.',
       description: 'Teh Herbal Asam Lambung adalah formulasi khusus dari berbagai herbal yang telah terbukti membantu mengatasi masalah asam lambung. Diracik oleh ahli herbalis berpengalaman dengan komposisi yang seimbang.\n\n**Manfaat Utama:**\n• Menetralkan asam lambung berlebih\n• Melindungi lapisan lambung\n• Mengurangi rasa perih dan mual\n• Membantu pencernaan yang sehat\n• Menenangkan saluran cerna\n\nRasa hangat dan menyegarkan, cocok diminum setelah makan atau sebelum tidur. Dikemas dalam sachet praktis yang mudah diseduh kapan saja dan di mana saja.',
       price: 55000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Teh+Herbal+Asam+Lambung',
+      image: '/products/teh-herbal-asam-lambung.png',
       form: 'teh',
       composition: 'Sambiloto, Temulawak, Daun Jambu Biji, Kayu Manis, Jahe',
       dosage: '1-2 sachet sehari (seduh dengan air panas 200ml)',
@@ -246,7 +246,7 @@ async function main() {
       shortDesc: 'Kapsul ekstrak daun salam yang membantu menurunkan gula darah dan tekanan darah tinggi secara alami.',
       description: 'Kapsul Daun Salam mengandung ekstrak daun salam (Syzygium polyanthum) berkualitas tinggi yang telah digunakan selama ratusan tahun sebagai obat tradisional Indonesia. Penelitian modern membuktikan khasiat daun salam dalam menjaga kesehatan metabolik.\n\n**Manfaat Utama:**\n• Membantu menurunkan gula darah secara alami\n• Membantu menjaga tekanan darah normal\n• Menurunkan kolesterol dan trigliserida\n• Anti-diabetes alami\n• Membantu mengatasi masalah pencernaan\n\nSetiap kapsul mengandung 400 mg ekstrak daun salam terstandarisasi. Aman dikonsumsi dalam jangka panjang sebagai suplemen kesehatan harian.',
       price: 45000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Kapsul+Daun+Salam',
+      image: '/products/kapsul-daun-salam.png',
       form: 'kapsul',
       composition: 'Ekstrak Daun Salam (Syzygium Polyanthum) 400 mg',
       dosage: '2 kapsul 3 kali sehari (setelah makan)',
@@ -263,7 +263,7 @@ async function main() {
       description: 'Madu Propolis adalah kombinasi premium antara madu murni Indonesia dan propolis lebah berkualitas tinggi. Propolis adalah zat resin yang dikumpulkan lebah dari tunas pohon dan digunakan sebagai pertahanan alami sarang lebah.\n\n**Manfaat Utama:**\n• Antibakteri dan antivirus alami yang sangat kuat\n• Meningkatkan sistem kekebalan tubuh drastis\n• Mempercepat penyembuhan luka dan infeksi\n• Antioksidan tinggi untuk anti-aging\n• Membantu mengatasi masalah pernapasan\n\nPropolis mengandung lebih dari 300 senyawa aktif termasuk flavonoid, asam fenolat, dan ester yang bekerja sinergis dengan madu untuk memberikan perlindungan optimal bagi tubuh.',
       price: 120000,
       originalPrice: 150000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Madu+Propolis',
+      image: '/products/madu-propolis.png',
       form: 'cair',
       composition: 'Madu Murni, Propolis Lebah (20%), Royal Jelly',
       dosage: '2 sendok makan sehari (pagi dan malam)',
@@ -279,7 +279,7 @@ async function main() {
       shortDesc: 'Serbuk kunyit asam tradisional untuk menjaga kesehatan wanita, mengatasi nyeri haid, dan merawat kecantikan dari dalam.',
       description: 'Serbuk Kunyit Asam adalah resep warisan nenek moyang yang dikemas secara modern tanpa mengurangi khasiatnya. Perpaduan kunyit dan asam jawa ini telah digunakan selama berabad-abad oleh wanita Indonesia untuk menjaga kesehatan dan kecantikan.\n\n**Manfaat Utama:**\n• Meredakan nyeri saat menstruasi\n• Menjaga kesehatan organ reproduksi wanita\n• Mencerahkan dan merawat kulit dari dalam\n• Membantu melancarkan siklus haid\n• Antioksidan alami untuk anti-aging\n\nDibuat dari kunyit segar pilihan dan asam jawa asli yang diolah dengan metode tradisional. Tinggal seduh dengan air hangat dan tambahkan madu sesuai selera.',
       price: 35000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Serbuk+Kunyit+Asam',
+      image: '/products/serbuk-kunyit-asam.png',
       form: 'serbuk',
       composition: 'Serbuk Kunyit, Asam Jawa, Gula Aren, Jahe, Kayu Manis',
       dosage: '1 sendok makan seduh dengan 200ml air hangat, 2 kali sehari',
@@ -296,7 +296,7 @@ async function main() {
       description: 'Kapsul Omega-3 Salmon mengandung minyak salmon Alaska murni yang kaya asam lemak esensial EPA dan DHA. Diproduksi dengan teknologi molekuler distillation untuk memastikan kemurnian dan bebas dari logam berat.\n\n**Manfaat Utama:**\n• Menjaga kesehatan jantung dan pembuluh darah\n• Menurunkan kolesterol dan trigliserida\n• Menjaga tekanan darah tetap normal\n• Meningkatkan fungsi otak dan daya ingat\n• Mengurangi peradangan pada sendi\n\nSetiap kapsul mengandung 1000 mg minyak salmon dengan EPA 180mg dan DHA 120mg. Teruji secara laboratorium untuk memastikan kualitas dan keamanannya.',
       price: 150000,
       originalPrice: 185000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Kapsul+Omega-3+Salmon',
+      image: '/products/kapsul-omega-3-salmon.png',
       form: 'kapsul',
       composition: 'Minyak Ikan Salmon (EPA 180mg, DHA 120mg), Vitamin E',
       dosage: '1-2 kapsul sehari (setelah makan)',
@@ -312,7 +312,7 @@ async function main() {
       shortDesc: 'Formula herbal khusus untuk menjaga kesehatan sendi, mengurangi nyeri, dan meningkatkan mobilitas persendian.',
       description: 'Herbal Joint Care adalah formula herbal komprehensif yang dirancang khusus untuk menjaga kesehatan persendian. Mengombinasikan beberapa herbal anti-inflamasi terkuat dari alam Indonesia dalam satu kapsul.\n\n**Manfaat Utama:**\n• Mengurangi nyeri dan peradangan pada sendi\n• Membantu regenerasi tulang rawan\n• Meningkatkan fleksibilitas dan mobilitas sendi\n• Anti-inflamasi alami yang kuat\n• Membantu mengatasi asam urat\n\nDiformulasikan dengan Kunyit (curcumin 95%), Jahe Merah, Sambiloto, dan Glucosamine alami dari tulang rawan ikan. Cocok untuk usia 30 tahun ke atas yang mulai merasakan keluhan sendi.',
       price: 110000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Herbal+Joint+Care',
+      image: '/products/herbal-joint-care.png',
       form: 'kapsul',
       composition: 'Curcumin 95%, Ekstrak Jahe Merah, Sambiloto, Glucosamine Sulfate, Chondroitin',
       dosage: '2 kapsul 2 kali sehari (setelah makan)',
@@ -328,7 +328,7 @@ async function main() {
       shortDesc: 'Madu herbal khusus untuk anak yang membantu meningkatkan nafsu makan, daya tahan tubuh, dan vitalitas.',
       description: 'Madu Anak Vitalitas diformulasikan khusus untuk kebutuhan anak-anak usia 1-12 tahun. Menggunakan madu murni sebagai base yang dikombinasikan dengan berbagai herbal pilihan yang aman untuk anak.\n\n**Manfaat Utama:**\n• Meningkatkan nafsu makan anak\n• Meningkatkan daya tahan tubuh agar tidak mudah sakit\n• Membantu proses pertumbuhan dan perkembangan\n• Menambah vitalitas dan konsentrasi\n• Rasa manis alami yang disukai anak\n\nDiperkaya dengan temulawak, meniran, dan jeruk nipis yang telah lama dikenal sebagai herbal favorit untuk anak-anak. Aman dikonsumsi setiap hari karena terbuat dari 100% bahan alami.',
       price: 70000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Madu+Anak+Vitalitas',
+      image: '/products/madu-anak-vitalitas.png',
       form: 'cair',
       composition: 'Madu Murni, Ekstrak Temulawak, Ekstrak Meniran, Perasan Jeruk Nipis',
       dosage: '1-2 sendok teh sehari (sesuaikan usia anak)',
@@ -344,7 +344,7 @@ async function main() {
       shortDesc: 'Teh detox herbal dengan daun senna untuk membantu membersihkan pencernaan dan mendetoksifikasi tubuh secara lembut.',
       description: 'Teh Detox Senna adalah teh herbal yang mengombinasikan daun senna dengan berbagai herbal pelengkap untuk proses detoxifikasi tubuh yang lembut namun efektif. Daun senna telah digunakan selama ribuan tahun sebagai pelancar pencernaan alami.\n\n**Manfaat Utama:**\n• Melancarkan BAB dan membersihkan saluran cerna\n• Mendetoksifikasi tubuh dari racun akumulatif\n• Mengurangi kembung dan perut busung\n• Membantu program diet dan penurunan berat badan\n• Menjaga kesehatan kulit melalui detox dari dalam\n\nDiformulasikan dengan dosis senna yang tepat agar aman untuk penggunaan rutin. Diperkaya dengan peppermint untuk rasa yang menyegarkan dan membantu mengurangi efek kram perut.',
       price: 40000,
-      image: 'https://placehold.co/400x400/D8F3DC/2D6A4F?text=Teh+Detox+Senna',
+      image: '/products/teh-detox-senna.png',
       form: 'teh',
       composition: 'Daun Senna, Peppermint, Daun Stevia, Kayu Manis, Lemon Grass',
       dosage: '1 sachet sehari (seduh dengan air panas 200ml, minum sebelum tidur)',
@@ -638,7 +638,7 @@ async function main() {
 Penelitian ilmiah modern telah membuktikan bahwa curcumin dalam kunyit memiliki kemampuan melawan radikal bebas yang 8 kali lebih kuat dari vitamin E dan 5 kali lebih kuat dari vitamin C. Senyawa ini juga terbukti mampu menghambat enzim penyebab peradangan, sehingga efektif untuk mengatasi berbagai kondisi inflamasi termasuk arthritis dan gangguan pencernaan.
 
 Untuk mendapatkan manfaat maksimal, konsumsilah kunyit secara rutin dalam bentuk teh, kapsul, atau ditambahkan ke dalam masakan sehari-hari. Mengombinasikan kunyit dengan lada hitam dapat meningkatkan penyerapan curcumin hingga 2000%, sehingga khasiatnya lebih optimal dirasakan oleh tubuh.`,
-      image: 'https://placehold.co/800x400/D8F3DC/2D6A4F?text=Manfaat+Kunyit',
+      image: '/articles/manfaat-kunyit-untuk-kesehatan-tubuh.png',
       category: 'herbal-info',
     },
     {
@@ -650,7 +650,7 @@ Untuk mendapatkan manfaat maksimal, konsumsilah kunyit secara rutin dalam bentuk
 Penting untuk mengenali kebutuhan tubuh Anda dan memilih herbal yang tepat. Jika Anda memiliki masalah pencernaan, temulawak dan daun jambu biji bisa menjadi pilihan. Untuk meningkatkan daya tahan tubuh, madu dan propolis adalah suplemen alami yang sangat baik. Konsultasikan dengan herbalis atau dokter yang memahami pengobatan herbal untuk mendapatkan rekomendasi yang sesuai.
 
 Selain mengonsumsi herbal, jangan lupa untuk menyeimbangkan dengan pola hidup sehat lainnya: makan makanan bergizi seimbang, olahraga teratur, cukup tidur, dan kelola stres dengan baik. Herbal bekerja paling optimal ketika didukung oleh gaya hidup yang sehat secara menyeluruh.`,
-      image: 'https://placehold.co/800x400/D8F3DC/2D6A4F?text=Hidup+Sehat+Herbal',
+      image: '/articles/tips-hidup-sehat-dengan-herbal-alami.png',
       category: 'tips',
     },
     {
@@ -662,7 +662,7 @@ Selain mengonsumsi herbal, jangan lupa untuk menyeimbangkan dengan pola hidup se
 Beberapa herbal Indonesia telah terbukti efektif mengatasi asam lambung. Sambiloto memiliki sifat anti-inflamasi yang membantu menenangkan lapisan lambung. Temulawak merangsang produksi lendir pelindung lambung. Daun jambu biji membantu menetralkan kelebihan asam. Kombinasi herbal ini tersedia dalam bentuk teh yang praktis dikonsumsi sehari-hari.
 
 Selain herbal, perhatikan juga pola makan Anda: makan dalam porsi kecil tapi sering, hindari makanan pedas dan asam, jangan makan terlalu larut malam, dan kunyah makanan dengan baik. Jika gejala asam lambung berlanjut meskipun sudah mencoba pengobatan alami, segera konsultasikan dengan dokter untuk pemeriksaan lebih lanjut.`,
-      image: 'https://placehold.co/800x400/D8F3DC/2D6A4F?text=Atasi+Asam+Lambung',
+      image: '/articles/cara-mengatasi-asam-lambung-secara-alami.png',
       category: 'herbal-info',
     },
     {
@@ -674,7 +674,7 @@ Selain herbal, perhatikan juga pola makan Anda: makan dalam porsi kecil tapi ser
 Madu Habbatussauda (jintan hitam) adalah salah satu herbal terbaik untuk meningkatkan imunitas. Rasulullah SAW menyebutnya sebagai "obat untuk segala penyakit" dan penelitian modern membuktikan bahwa habbatussauda mampu meningkatkan produksi sel imun secara signifikan. Jus manggis yang kaya xanthone juga menjadi pilihan tepat karena antioksidannya yang sangat kuat.
 
 Selain mengonsumsi herbal, pastikan juga untuk istirahat yang cukup (7-8 jam per hari), minum air putih minimal 8 gelas sehari, dan hindari makanan yang diproses secara berlebihan. Vitamin D dari paparan sinar matahari pagi juga sangat penting untuk menjaga sistem imun tetap optimal.`,
-      image: 'https://placehold.co/800x400/D8F3DC/2D6A4F?text=Imunitas+Pancaroba',
+      image: '/articles/menjaga-imunitas-di-musim-pancaroba.png',
       category: 'tips',
     },
     {
@@ -686,7 +686,7 @@ Selain mengonsumsi herbal, pastikan juga untuk istirahat yang cukup (7-8 jam per
 Lebih dari 600 penelitian ilmiah telah dilakukan untuk menguji khasiat habbatussauda. Hasilnya sangat menakjubkan: habbatussauda mengandung thymoquinone, senyawa yang memiliki aktivitas anti-kanker, anti-diabetes, anti-hipertensi, dan anti-bakteri. Biji kecil ini juga mengandung asam lemak esensial, vitamin, mineral, dan antioksidan yang bekerja sinergis untuk menjaga kesehatan tubuh secara menyeluruh.
 
 Di Indonesia, habbatussauda paling populer dikonsumsi dalam bentuk minyak atau dikombinasikan dengan madu. Produk Madu Habbatussauda Premium dari Herbal Nusantara mengombinasikan kedua bahan superfood ini untuk memberikan manfaat yang lebih optimal. Konsumsi rutin 2 sendok makan sehari dapat membantu meningkatkan daya tahan tubuh, nafsu makan, dan kesehatan secara keseluruhan.`,
-      image: 'https://placehold.co/800x400/D8F3DC/2D6A4F?text=Habbatussauda',
+      image: '/articles/mengenal-lebih-dekat-habbatussauda.png',
       category: 'herbal-info',
     },
     {
@@ -698,7 +698,7 @@ Di Indonesia, habbatussauda paling populer dikonsumsi dalam bentuk minyak atau d
 Detox herbal yang paling populer adalah menggunakan jus manggis, teh senna, dan kunyit putih. Jus manggis mengandung xanthone yang membantu membersihkan racun di tingkat selular. Teh senna melancarkan pembuangan racun melalui saluran pencernaan. Kunyit putih mendukung fungsi hati sebagai organ utama detoksifikasi. Kombinasi ketiga herbal ini memberikan efek detox yang menyeluruh.
 
 Program detox yang disarankan adalah selama 7-14 hari, diimbangi dengan pola makan sehat (banyak sayur dan buah), minum air putih minimal 2 liter sehari, dan olahraga ringan secara teratur. Hindari makanan olahan, kafein, dan alkohol selama program detox berlangsung. Setelah program selesai, Anda akan merasakan tubuh yang lebih ringan, bugar, dan berenergi.`,
-      image: 'https://placehold.co/800x400/D8F3DC/2D6A4F?text=Detox+Alami',
+      image: '/articles/panduan-lengkap-detox-tubuh-secara-alami.png',
       category: 'healthy-living',
     },
   ]

@@ -3,14 +3,13 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider = "postgresql"
 }
 
 model Category {
   id          String   @id @default(cuid())
   name        String
-  slug        String   @unique
+  slug        String @unique
   icon        String?
   description String?
   sortOrder   Int      @default(0)
@@ -22,7 +21,7 @@ model Category {
 model Complaint {
   id          String   @id @default(cuid())
   name        String
-  slug        String   @unique
+  slug        String @unique
   description String
   education   String
   sortOrder   Int      @default(0)
